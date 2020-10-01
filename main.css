@@ -1,0 +1,161 @@
+body{
+    background: #38b4ee;
+    font-family: arial;
+}
+
+#bodydva{
+    background: navy; 
+    font-family: arial;
+}
+
+
+
+#infodugme{
+    font-size: 25px;
+    color: white;
+    background: #30307e;
+    border: 3px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+
+#dugmeyt{
+    font-size: 25px;
+    color: white;
+    background: #30307e;
+    border: 3px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#dugmeyt:hover
+{
+    color: #38b4ee;
+    background: #30307e;
+    box-shadow: 0 0 10px #30307e , 0 0 40px #30307e, 0 0 80px #30307e;
+}
+
+#infodugme:hover
+{
+    color: #38b4ee;
+    background: #30307e;
+    box-shadow: 0 0 10px #30307e , 0 0 40px #30307e, 0 0 80px #30307e;
+}
+
+
+#home{
+    font-size: 25px;
+    color: white;
+    background: #38b4ee;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+#tekst{
+    font-family: sans-serif;
+
+}
+#vlasnik
+{
+    margin-top: -250px;
+    margin-left: 25%;
+    text-transform: uppercase;
+    
+    
+}
+#maki{
+    color: white;
+}
+
+#dizajneri
+{
+    margin-top:-49px;
+    margin-left: 60%;
+    text-transform: uppercase;
+    
+}
+#container{
+    text-align: center;
+}
+
+    
+   section{
+       width: 100%;
+       height: 98vh;
+       color: white;
+       background: linear-gradient(-45deg, #2895C4,#30307e,#38b4ee, #4A3BD4);
+       background-size: 400% 400%;
+       position: relative;
+       animation: change 10s ease-in-out infinite;
+       overflow: hidden;
+       overflow-y: hidden;
+       
+     
+   }
+   #logo{
+    margin-top: -60px;
+    margin-left: 85%;
+    
+    
+
+   }
+   #logodc{
+       margin-top: -450px ;
+   }
+
+
+   h1{
+       font-size: 5rem;
+       text-transform: uppercase;
+       letter-spacing: 2px;
+       border: 3px solid #fff;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       padding: 5rem 10rem;
+       border-radius: 34px;
+   }
+    
+   @keyframes change{
+       
+  0% {background-position: 0 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0 50%;}
+    
+
+
+}
+  
+#testest{
+    width: 300px;
+    height: 300px;
+    background: transparent;
+    transition: 500ms ease-in;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 45px;
+    font-family: sans-serif;
+    border:transparent;
+    
+    
+}
+#testest:hover{
+    
+    transform: rotate(45deg);
+    border: 5px solid black;
+
+   
+}
+
+}
+
+
+
+
